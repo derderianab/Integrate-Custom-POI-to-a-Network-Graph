@@ -5,11 +5,11 @@ from shapely.ops import split
 # ─────────────────────────────────────────
 # Config
 # ─────────────────────────────────────────
-POI_PATH   = r"join_poi_network/data/point_of_interest_32748.gpkg"
-EDGE_PATH  = r"join_poi_network/data/kota_bandung_edges_32748.gpkg"
-NODE_PATH  = r"join_poi_network/data/kota_bandung_nodes_32748.gpkg"
-OUTPUT_EDGE_PATH = r"join_poi_network/output/test_updated_edges.gpkg"
-OUTPUT_NODE_PATH = r"join_poi_network/output/test_updated_nodes.gpkg"
+POI_PATH   = r"data/point_of_interest_32748.gpkg"
+EDGE_PATH  = r"data/kota_bandung_edges_32748.gpkg"
+NODE_PATH  = r"jdata/kota_bandung_nodes_32748.gpkg"
+OUTPUT_EDGE_PATH = r"output/test_updated_edges.gpkg"
+OUTPUT_NODE_PATH = r"output/test_updated_nodes.gpkg"
 
 POI_ID_COL = "conn_id"
 TOLERANCE  = 0.01  # meter

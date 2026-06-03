@@ -5,7 +5,7 @@ import osmnx as ox
 # Config
 # ─────────────────────────────────────────
 PLACE       = "Kota Bandung, West Java, Indonesia"
-OUTPUT_DIR  = "join_poi_network/data"
+OUTPUT_DIR  = "data"
 
 NETWORK_TYPE = "drive"
 NETWORK_CRS  = "EPSG:32748"
