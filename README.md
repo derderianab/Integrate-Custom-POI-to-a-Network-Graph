@@ -14,7 +14,7 @@ The project aims to produce a topologically consistent network graph where custo
 # Methodology
 
 <p align="center">
-  <img src="assets/integrate_poi_to_network_graph.png" width="600"/>
+  <img src="assets/integrate_poi_to_network_graph.drawio.png" width="600"/>
 </p>
 
 Custom POI geometries were projected onto the nearest road edge using Shapely. Depending on the projected point location, either a new node was inserted by splitting the edge, or the POI was connected directly to an existing node. Connector edges were added bidirectionally to maintain compatibility with directed graph structures (MultiDiGraph).
