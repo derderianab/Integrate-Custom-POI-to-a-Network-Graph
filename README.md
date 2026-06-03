@@ -13,6 +13,8 @@ The project aims to produce a topologically consistent network graph where custo
 
 # Methodology
 
+![Flowchart](assets/integrate_poi_to_network_graph.drawio.png)
+
 Custom POI geometries were projected onto the nearest road edge using Shapely. Depending on the projected point location, either a new node was inserted by splitting the edge, or the POI was connected directly to an existing node. Connector edges were added bidirectionally to maintain compatibility with directed graph structures (MultiDiGraph).
 
 ## Processing Steps
@@ -51,6 +53,8 @@ Custom POI geometries were projected onto the nearest road edge using Shapely. D
 # Repository Structure
 
 ```text
+├── assets/
+│   └── integrate_poi_to_network_graph.png
 ├── data/
 │   ├── point_of_interest_32748.gpkg
 │   ├── kota_bandung_edges_32748.gpkg
@@ -99,7 +103,6 @@ The processing workflow produces:
    Accessed 2025.
    https://www.openstreetmap.org
 
-3. Climate Hazards Center (CHIRPS), University of California, Santa Barbara.
-   Shapely Development Team.
+3. Shapely Development Team.
    *Shapely: Manipulation and Analysis of Geometric Objects.*
    https://shapely.readthedocs.io
